@@ -6,7 +6,7 @@ Flutter application
 * Get live weather data at the Phone's current location with matching background and recommendation message.
 
 * Get weather in any other city using it's name
-  *The list of cities includes more than 200,000 cities
+  * The list of cities includes more than 200,000 cities
 
 ### Working of the app:
 * The weather of the current location shows up on launch

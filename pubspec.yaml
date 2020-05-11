@@ -1,0 +1,42 @@
+name: clima
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^5.3.1
+  http: ^0.12.1
+  cupertino_icons: ^0.1.2
+  flutter_spinkit: ^4.1.2+1
+  rflutter_alert: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+  flutter_launcher_name: "^0.0.1"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter_launcher_name:
+  name: "WeatherBoy"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - images/
+
+  fonts:
+  - family: Spartan MB
+    fonts:
+    - asset: fonts/SpartanMB-Black.otf
+      weight: 900
